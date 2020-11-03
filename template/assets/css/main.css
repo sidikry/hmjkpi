@@ -5894,14 +5894,14 @@ div[class*="col-"] .icon-info-center {
 }
 
 .fullwidth-image {
-  background-image: url('../img/hero-unit/pelantikann.jpg');
+  background-image: url('../img/hero-unit/banner-3.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .fullwidth-image .heading,
 .fullwidth-image .lead {
-  color: #fff;
+  color: #078080;
 }
 
 .hero-rotating-words {
@@ -5912,11 +5912,11 @@ div[class*="col-"] .icon-info-center {
   top: 25%;
 }
 .hero-rotating-words .heading {
-  font-size: 20px;
+  font-size: 60px;
 }
 .hero-rotating-words .lead {
   margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 24 px;
 }
 .hero-rotating-words .btn {
   margin-right: 15px;
@@ -6210,20 +6210,22 @@ html, body {
 }
 .navbar-default .navbar-nav > li > a {
   color: #3B3B3B;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 13px;
+  text-transform: capitalize;
 }
 .navbar-default .navbar-nav > li > a:hover {
   background-color: transparent;
-  color: #69B417;
+  color: #078080;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
-  color: #69B417;
+  color: #078080;
 }
 .navbar-default .navbar-nav .active > a, .navbar-default .navbar-nav .active > a:hover, .navbar-default .navbar-nav .active > a:focus {
-  color: #69B417;
+  color: #078080;
   background-color: transparent;
+  font-weight:700;
 }
 .navbar-default .navbar-form {
   border: none;
